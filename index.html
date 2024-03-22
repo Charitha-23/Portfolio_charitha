@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive personal portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="user">
+            <img src="image.jpg" alt="">
+            <h3 class="name">Charitha Reddy</h3>
+            <p class="post">Front end developer</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <section class="home" id="home">
+        <h3>HI THERE !!!</h3>
+        <h1>I'M <span>Charitha Reddy</span></h1>
+        <p>Ambitious To work in order to acquire new knowledge ,to sharpen my programming skills and put my efforts on achieving goals of company as well as personal goals</p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i> </button></a>
+
+
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"> <span>about</span> me </h1>
+        <div class="row">
+            <div class="info">
+                <h3> <span> name : </span>Charitha Reddy</h3>
+                <h3><span>age : </span> 19 </h3>
+                <h3><span>qualification : </span> Btech </h3>
+                <h3><span>post : </span> Student </h3>
+                <h3><span>language : </span> Englsh,Telugu,Spanish </h3>
+                <a href="#" ><button class="btn"> download CV <fas class="fa download"></fas></button></a>
+            </div>
+            <div class="counter">
+
+                <div class="box">
+                    <span>2+</span>
+                    <h3>Hackathons attended </h3>
+                </div>
+                <div class="box">
+                    <span>3+</span>
+                    <h3>projects completed </h3>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+ 
+    <section class="education" id="education">
+        <h1 class="heading"> My <span>Education</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022-2024</span>
+                <h3>Bachelor of Technology</h3>
+                <p>Currently pursuing my Btech 2nd year from VELLORE INSTITUTE OF TECHNOLOGY,AMARAVATHI in the stream of COMPUTER SCIENCE AND ENGINEERING with specialization in ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING   </p>
+            </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2020-2022</span>
+            <h3>INTERMEDIATE</h3>
+            <p>Completed Secondary school from NARAYANA JUNIOR COLLEGE , KAVALI with 95.9% in 2022</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2020</span>
+            <h3>10TH STANDARD</h3>
+            <p>Completed Class 10th from NARAYANA E.M HIGH SCHOOL,KAVALI with 99.5% in 2020</p>
+        </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h1 class="heading">MY<span>Projects</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Performance Evaluation Of LoRa</h3>
+                <p>In this project we validated the performance of LoRa. LoRa (Long Range) technology is designed for extended communication ranges in wireless networks, making it suitable for various IoT (Internet of Things) applications. Ensuring and validating the specified range of LoRa devices is essential for the reliable performance of connected systems.  </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3> Generative AI model-ChatBot </h3>
+                <p> ChatBot an innovative AI project that turns text into voice conversations. In today's world,we are constantly communicating with each other through various mediums, and ChatGPT aims to make this communication more efficient and accessible for everyone. Our project utilizes state-of-the-art natural language processing techniques to generate human like voice conversations from text inputs </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3> Netflix Recommendation Engine </h3>
+                <p> Netflix's recommendation engine is a sophisticated system designed to personalize content recommendations for its users, enhancing their viewing experience.It plays a crucial role in keeping users engaged and satisfied with the platform by helping them discover content they're likely to enjoy.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span>me</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">contact info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i>charithareddy2311@gmail.com</h3>
+                    <h3><i class="fas fa-phone"></i>+91 7013736025</h3>
+                    <h3><i class="fas fa-map-marker-alt"></i>Kavali,Andhra Pradesh -524201</h3>
+
+                </div>
+            </div>
+
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn">send <i class="fa fa-paper-plane"></i></button>
+            </form>
+
+        </div>
+
+    </section>
+
+    <a href="#home" class="top">
+        <img src="image/scroll-top-img.png" alt="">
+    </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
